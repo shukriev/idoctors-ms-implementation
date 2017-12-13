@@ -1,0 +1,5 @@
+com\idoctors\security\SecurityConfiguration.class
+com\idoctors\security\SecurityConfiguration$1.class
+com\idoctors\security\SecurityConfiguration$2.class
+com\idoctors\security\DynamicOauth2ClientContextFilter.class
+com\idoctors\ApiGatewayApplication.class
