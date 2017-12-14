@@ -76,7 +76,7 @@ public class DoctorController {
 
 			return new ResponseEntity<List<DoctorResource>>(HttpStatus.NOT_FOUND);
 		}		
-		
+	
 		List<DoctorResource> doctorsResource = doctorResourceAssembler.toResources(doctorService.findAllDoctors());
 		return new ResponseEntity<List<DoctorResource>>(doctorsResource, HttpStatus.OK);
 	}
